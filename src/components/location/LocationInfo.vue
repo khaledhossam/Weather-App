@@ -3,7 +3,7 @@
     <h3>
       {{ LocationInfo.name }}
     </h3>
-    <img :src="`http://openweathermap.org/img/w/${icon}.png`" />
+    <img :src="`https://openweathermap.org/img/w/${icon}.png`" />
   </div>
 </template>
 <script>
